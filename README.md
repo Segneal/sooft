@@ -64,7 +64,7 @@ Se hizo uso de Tailwind para facilitar la implementación del código y acelerar
 
 En la sección del frontend, se hizo uso de React Query para abstraer el el manejo del estado de la aplicación y reducir la cantidad de llamadas a la API. También se utilizó Axios como biblioteca para realizar llamadas a la API.
 
-En la sección del backend, se utilizó MongoDB como base de datos y se utilizó Mongoose como ODM de. 
+En la sección del backend, se utilizó MongoDB como base de datos y se utilizó Mongoose como ODM de manejo de comunicacion entre backend y base de datos.
 
 
 ### Pensamientos
