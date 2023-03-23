@@ -1,14 +1,15 @@
-# sooft
+#**SOOFT TECHNOLOGY
  
 Este proyecto fue desarrollado por Ariel Nicolas Heredia, como desafio tecnico de Sooft Technology.
 
-Prerequisitos.
+##Prerequisitos.
 Instalacion de MongoDB: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/
 Instalacion Node: https://nodejs.org/es/download
 
-. Iniciar MongoDB
+###Iniciar MongoDB
 Abrir una ventana de terminal y ejecutar el siguiente comando para iniciar el servidor de MongoDB:
--mongod
+
+```mongod```
 Esto va a iniciar el servidor en el puerto defecto : 27017
 
 -alternativa
@@ -21,7 +22,7 @@ git clone https://github.com/Segneal/sooft.git
 Instalar Typescript
 npm install -g typescript
 
-Script popular MongoDB:
+###Script popular MongoDB:
 establecerse sobre carpeta db
 
 instalar dependencias con el comando
@@ -30,7 +31,7 @@ npm install
 ejecutar el comando 
 -node populate.js
 
-Servidor backend
+###Servidor backend
 establecerse sobre carpeta db
 
 instalar dependencias con el comando
@@ -41,11 +42,11 @@ npm run build
 npm start
 
 
-Cliente frontend
-instalar dependencias con el comando
+###Cliente frontend
+Instalar dependencias y luego ejecutar comandos
+```
 npm install
-
-ejecutar comandos
 npm run build
 npm start
 npm run preview
+```
