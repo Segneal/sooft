@@ -54,6 +54,8 @@ npm run preview
 ```
 
 ## Observaciones
+
+### Herramientas y tecnologias
 Para la implementación de este proyecto, se utilizaron varias herramientas y tecnologías. 
 
 Se ha utilizado Typescript en la implementacion tanto del frontend como del backend, esto garantiza el desarrollo mas rapido y seguro.
@@ -63,3 +65,12 @@ Se hizo uso de Tailwind para facilitar la implementación del código y acelerar
 En la sección del frontend, se hizo uso de React Query para abstraer el el manejo del estado de la aplicación y reducir la cantidad de llamadas a la API. También se utilizó Axios como biblioteca para realizar llamadas a la API.
 
 En la sección del backend, se utilizó MongoDB como base de datos y se utilizó Mongoose como ODM de. 
+
+
+### Pensamientos
+Esta ha sido una aplicacion facil de implementar , solamente han ocurrido una mala seleccion de una de las librerias de frontend como lo fue react-calendary que no era la mejor para esta tarea , aun asi , se ha podido completar lo solicitado en poco tiempo.
+
+Espero tener una respuesta favorable.
+
+
+## Nicolas
