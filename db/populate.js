@@ -4,7 +4,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 const year = new Date().getFullYear();
-const uri = process.env.URI || "mongodb://127.0.0.1:27017/sooft";
+const uri = process.env.MONGO_URI || "mongodb://127.0.0.1:27017/sooft";
 const dataURL = `http://nolaborables.com.ar/api/v2/feriados/${year}`;
 const collection = "feriados";
 
@@ -28,7 +28,9 @@ const populate = () =>
       const documents = response.data;
 
       Document.insertMany(documents)
-        .then((result) => {})
+        .then((result) => {
+          console.log("Database populated");
+        })
         .catch((error) => {
           console.error(error);
         });
