@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-calendar__tile--active {
+}
+
+.react-calendar__month-view__days {
+  background-color: ;
+}
