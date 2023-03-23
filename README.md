@@ -20,7 +20,9 @@ Clonar el repositorio de la aplicación
 git clone https://github.com/Segneal/sooft.git
 
 Instalar Typescript
+```
 npm install -g typescript
+```
 
 ### Script popular MongoDB:
 Establecerse sobre carpeta db
