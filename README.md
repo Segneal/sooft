@@ -30,6 +30,7 @@ npm install
 node populate.js
 ```
 ###Servidor backend
+
 Establecerse sobre carpeta back
 Instalar dependencias con el comando y luego ejecutar comandos
 
